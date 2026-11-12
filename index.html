@@ -1,0 +1,1099 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lupe Medical Centre | 24/7 Children's Level 4 Hospital & Medical Care in Lurambi, Kakamega</title>
+    <meta name="description" content="Lupe Medical Centre in Lurambi, Kakamega. Open 24 Hours. Children's Level 4 Hospital, Inpatient & Outpatient, Surgical Theatre, Newborn Phototherapy, Ultrasound & Dental Clinic. Call 0722 785 487.">
+    
+    <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 for Medical & UI Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        lupe: {
+                            green: '#15803D',      // Iconic green roof & trim
+                            forest: '#0F5132',     // Deep trustworthy medical forest green
+                            teal: '#0F766E',       // Clinical teal accent
+                            cream: '#FDFBF7',      // Warm cream wall tone
+                            creamDark: '#F5EFE6',  // Secondary cream surface
+                            blue: '#0284C7',       // Hospital blue door/equipment accent
+                            red: '#DC2626'         // Signage red & emergency pulse
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 30px -5px rgba(15, 81, 50, 0.08)',
+                        'card': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom subtle animations & scrollbar */
+        @keyframes pulse-ring {
+            0% { transform: scale(0.85); opacity: 0.9; }
+            70% { transform: scale(1.6); opacity: 0; }
+            100% { transform: scale(1.6); opacity: 0; }
+        }
+        .emergency-dot::before {
+            content: '';
+            position: absolute;
+            inset: -3px;
+            border-radius: 9999px;
+            background-color: #22c55e;
+            animation: pulse-ring 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+        }
+        .pattern-grid {
+            background-image: radial-gradient(#15803D 0.75px, transparent 0.75px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+<body class="bg-lupe-cream text-slate-800 antialiased selection:bg-lupe-green selection:text-white">
+
+    <!-- 1. TOP 24/7 EMERGENCY & QUICK CONTACT BAR -->
+    <div class="bg-lupe-forest text-white text-xs sm:text-sm py-2.5 px-4 border-b border-emerald-800/60">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+            <!-- Live 24/7 Status -->
+            <div class="flex items-center gap-2.5 font-medium">
+                <span class="relative flex h-2.5 w-2.5 emergency-dot">
+                    <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-400"></span>
+                </span>
+                <span class="tracking-wide uppercase text-emerald-200 font-bold text-xs">Open 24 Hours / 7 Days</span>
+                <span class="hidden md:inline text-emerald-300/70">|</span>
+                <span class="hidden md:inline text-emerald-100">Lurambi, Kakamega (P.O. Box 1154 - 50100)</span>
+            </div>
+
+            <!-- Direct Click-to-Call & WhatsApp -->
+            <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+                <a href="tel:+254722785487" class="inline-flex items-center gap-1.5 bg-emerald-800/80 hover:bg-emerald-700 px-3 py-1 rounded-full transition font-semibold text-white">
+                    <i class="fa-solid fa-phone-volume text-emerald-300 text-xs"></i>
+                    <span>0722 785 487</span>
+                </a>
+                <a href="tel:+254717334743" class="inline-flex items-center gap-1.5 hover:text-emerald-200 transition font-medium">
+                    <i class="fa-solid fa-phone text-emerald-300 text-xs"></i>
+                    <span>0717 334 743</span>
+                </a>
+                <a href="https://wa.me/254722785487?text=Hello%20Lupe%20Medical%20Centre,%20I%20would%20like%20to%20make%20an%20inquiry." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 bg-[#25D366] hover:bg-[#20bd5a] text-slate-950 font-bold px-3 py-1 rounded-full transition shadow-sm">
+                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                    <span>WhatsApp Desk</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- STICKY NAVIGATION HEADER -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-emerald-900/10 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Hospital Logo & Identity -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-lupe-green to-lupe-forest flex items-center justify-center text-white shadow-md group-hover:scale-105 transition">
+                        <i class="fa-solid fa-hospital text-xl"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-1.5">
+                            <span class="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-lupe-red">LUPE</span>
+                            <span class="font-heading font-bold text-lg sm:text-xl tracking-tight text-lupe-forest">MEDICAL CENTRE</span>
+                        </div>
+                        <p class="text-[11px] font-semibold uppercase tracking-wider text-lupe-teal">Children's Level 4 Hospital • Lurambi</p>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
+                    <a href="#home" class="hover:text-lupe-green transition">Home</a>
+                    <a href="#services" class="hover:text-lupe-green transition">Medical Services</a>
+                    <a href="#facilities" class="hover:text-lupe-green transition">Facilities & Equipment</a>
+                    <a href="#insurance" class="hover:text-lupe-green transition">SHA / Insurance</a>
+                    <a href="#location" class="hover:text-lupe-green transition">Location & Map</a>
+                </nav>
+
+                <!-- Desktop CTA + Mobile Menu Toggle -->
+                <div class="flex items-center gap-3">
+                    <a href="#appointment" class="hidden sm:inline-flex items-center gap-2 bg-lupe-green hover:bg-lupe-forest text-white font-semibold text-sm px-5 py-2.5 rounded-xl shadow-sm hover:shadow transition">
+                        <i class="fa-regular fa-calendar-check"></i>
+                        <span>Book Appointment</span>
+                    </a>
+                    <button id="mobile-menu-btn" aria-label="Toggle Menu" class="lg:hidden p-2.5 rounded-xl text-slate-700 hover:bg-lupe-creamDark border border-slate-200">
+                        <i class="fa-solid fa-bars text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 px-4 pt-3 pb-5 space-y-2 shadow-lg">
+            <a href="#home" class="mobile-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-lupe-creamDark hover:text-lupe-green">Home</a>
+            <a href="#services" class="mobile-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-lupe-creamDark hover:text-lupe-green">Medical Services</a>
+            <a href="#facilities" class="mobile-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-lupe-creamDark hover:text-lupe-green">Facilities & Equipment</a>
+            <a href="#insurance" class="mobile-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-lupe-creamDark hover:text-lupe-green">SHA / Insurance Cards</a>
+            <a href="#location" class="mobile-link block px-3 py-2.5 rounded-lg font-semibold text-slate-700 hover:bg-lupe-creamDark hover:text-lupe-green">Location & Directions</a>
+            <div class="pt-2 flex flex-col gap-2">
+                <a href="#appointment" class="mobile-link w-full text-center bg-lupe-green text-white font-bold py-3 rounded-xl shadow">Book an Appointment</a>
+                <a href="tel:+254722785487" class="w-full text-center bg-lupe-creamDark text-lupe-forest font-bold py-3 rounded-xl border border-emerald-200">
+                    <i class="fa-solid fa-phone mr-1.5"></i> Call 24/7 Desk: 0722 785 487
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section id="home" class="relative overflow-hidden bg-gradient-to-b from-white via-lupe-cream to-lupe-creamDark pt-10 pb-16 lg:pt-16 lg:pb-24">
+        <!-- Subtle decorative background pattern -->
+        <div class="absolute inset-0 pattern-grid opacity-[0.06] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+                
+                <!-- Left Column: Core Value Proposition -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-emerald-50 border border-emerald-200 text-lupe-forest px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-bold shadow-2xs">
+                        <i class="fa-solid fa-shield-heart text-lupe-green"></i>
+                        <span>Accredited Children's Level 4 Hospital • Kakamega</span>
+                    </div>
+
+                    <h1 class="font-heading font-extrabold text-3xl sm:text-4xl lg:text-5xl text-slate-900 leading-[1.15] tracking-tight">
+                        Compassionate, <span class="text-lupe-green">24/7 Healthcare</span> in the Heart of Lurambi
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+                        Children’s Level 4 Hospital, Specialized Maternity &amp; Newborn Care, Modern Surgical Theatre, Ultrasound Diagnostics, and Full Outpatient &amp; Inpatient Services in Kakamega.
+                    </p>
+
+                    <!-- Primary Action Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-3.5 pt-2">
+                        <a href="#appointment" class="inline-flex items-center justify-center gap-2.5 bg-lupe-green hover:bg-lupe-forest text-white font-bold px-7 py-4 rounded-2xl shadow-lg shadow-emerald-900/15 transition transform hover:-translate-y-0.5 text-base">
+                            <i class="fa-regular fa-calendar-check text-lg"></i>
+                            <span>Book an Appointment</span>
+                        </a>
+                        <a href="tel:+254722785487" class="inline-flex items-center justify-center gap-2.5 bg-white hover:bg-emerald-50 text-lupe-forest border-2 border-lupe-green font-bold px-7 py-4 rounded-2xl transition text-base">
+                            <i class="fa-solid fa-phone-volume text-lupe-red animate-pulse"></i>
+                            <span>Call 24/7 Desk: 0722 785 487</span>
+                        </a>
+                    </div>
+
+                    <!-- Trust Badges Grid -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4">
+                        <div class="bg-white/90 border border-emerald-900/10 rounded-xl p-3 shadow-2xs">
+                            <div class="text-lupe-green font-bold text-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-clock"></i> Open 24/7
+                            </div>
+                            <p class="text-xs text-slate-500 mt-0.5">Day &amp; Night Emergency</p>
+                        </div>
+                        <div class="bg-white/90 border border-emerald-900/10 rounded-xl p-3 shadow-2xs">
+                            <div class="text-lupe-teal font-bold text-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-hospital-user"></i> Level 4 Facility
+                            </div>
+                            <p class="text-xs text-slate-500 mt-0.5">Pediatric &amp; Family Care</p>
+                        </div>
+                        <div class="bg-white/90 border border-emerald-900/10 rounded-xl p-3 shadow-2xs">
+                            <div class="text-lupe-blue font-bold text-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-id-card-clip"></i> SHA / NHIF
+                            </div>
+                            <p class="text-xs text-slate-500 mt-0.5">&amp; Major Cards Accepted</p>
+                        </div>
+                        <div class="bg-white/90 border border-emerald-900/10 rounded-xl p-3 shadow-2xs">
+                            <div class="text-lupe-forest font-bold text-sm flex items-center gap-1.5">
+                                <i class="fa-solid fa-location-dot"></i> Lurambi
+                            </div>
+                            <p class="text-xs text-slate-500 mt-0.5">Near Forest Entrance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Architectural & Clinical Highlight Card -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white rounded-3xl p-5 sm:p-6 shadow-soft border border-emerald-900/10 relative">
+                        <!-- Top Official Signboard Header Replica -->
+                        <div class="bg-lupe-cream border-2 border-lupe-green rounded-2xl p-5 text-center shadow-inner">
+                            <div class="inline-block bg-lupe-green text-white text-[11px] font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-2">
+                                Official Hospital Directory
+                            </div>
+                            <h2 class="font-heading font-extrabold text-2xl sm:text-3xl text-lupe-red tracking-tight">LUPE MEDICAL CENTRE</h2>
+                            <p class="text-xs font-bold text-slate-700 mt-0.5">P.O. BOX 1154 - 50100 KAKAMEGA • LURAMBI</p>
+                            
+                            <div class="my-4 border-t border-dashed border-emerald-300"></div>
+                            
+                            <ul class="text-left space-y-2 text-xs sm:text-sm font-semibold text-blue-900">
+                                <li class="flex items-center gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-lupe-green"></i>
+                                    <span>IN-PATIENT &amp; OUT-PATIENT SERVICES</span>
+                                </li>
+                                <li class="flex items-center gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-lupe-green"></i>
+                                    <span>CHILDREN'S LEVEL 4 HOSPITAL</span>
+                                </li>
+                                <li class="flex items-center gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-lupe-green"></i>
+                                    <span>NEWBORN CARE &amp; PHOTOTHERAPY</span>
+                                </li>
+                                <li class="flex items-center gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-lupe-green"></i>
+                                    <span>SURGICAL SERVICES &amp; MATERNITY THEATRE</span>
+                                </li>
+                                <li class="flex items-center gap-2.5">
+                                    <i class="fa-solid fa-circle-check text-lupe-green"></i>
+                                    <span>ULTRASOUND &amp; DENTAL CLINIC</span>
+                                </li>
+                            </ul>
+
+                            <div class="mt-4 bg-emerald-50 border border-emerald-200 rounded-xl py-2 px-3">
+                                <p class="text-xs font-extrabold text-lupe-green uppercase tracking-wide">
+                                    SHA / NHIF &amp; Other Major Cards Accredited
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Quick Emergency Triage Strip -->
+                        <div class="mt-4 flex items-center justify-between bg-slate-900 text-white rounded-2xl p-4">
+                            <div>
+                                <p class="text-[11px] uppercase tracking-wider text-emerald-300 font-semibold">24-Hour Reception &amp; Triage</p>
+                                <p class="font-heading font-bold text-base sm:text-lg">0722 785 487 / 0717 334 743</p>
+                            </div>
+                            <a href="tel:+254722785487" class="w-11 h-11 rounded-xl bg-lupe-green hover:bg-emerald-500 flex items-center justify-center text-white transition shadow-md" aria-label="Call Hospital">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. COMPREHENSIVE MEDICAL SERVICES GRID -->
+    <section id="services" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-lupe-green font-bold text-xs sm:text-sm uppercase tracking-widest">Clinical Departments</span>
+                <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900 mt-2">
+                    Comprehensive Medical &amp; Specialist Services
+                </h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">
+                    Equipped to serve families, mothers, newborns, and children across Kakamega County with round-the-clock clinical excellence.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                <!-- Service 1: Inpatient & Outpatient -->
+                <div class="group bg-lupe-cream hover:bg-white rounded-3xl p-7 border border-emerald-900/10 hover:border-lupe-green/40 shadow-card hover:shadow-soft transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-lupe-green flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-stethoscope"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-slate-900 mb-2.5">Inpatient &amp; Outpatient Care</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            24/7 general medical consultations, acute illness management, laboratory diagnostics, observation bays, and serene, clean inpatient wards for continuous recovery.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-emerald-900/10 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-lupe-forest bg-emerald-50 px-2.5 py-1 rounded-lg">24/7 Walk-ins Welcome</span>
+                        <a href="#appointment" onclick="selectDepartment('Outpatient Consultation')" class="text-sm font-bold text-lupe-green hover:text-lupe-forest inline-flex items-center gap-1">
+                            Book Visit <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2: Children's Level 4 Hospital -->
+                <div class="group bg-lupe-cream hover:bg-white rounded-3xl p-7 border border-emerald-900/10 hover:border-lupe-green/40 shadow-card hover:shadow-soft transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-sky-100 text-lupe-blue flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-child-reaching"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-slate-900 mb-2.5">Children’s Level 4 Hospital</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Dedicated pediatric medical care, childhood immunization clinics, growth monitoring, pediatric emergency triage, and specialized inpatient pediatric wards.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-emerald-900/10 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-sky-800 bg-sky-50 px-2.5 py-1 rounded-lg">Level 4 Pediatric Care</span>
+                        <a href="#appointment" onclick="selectDepartment('Pediatrics / Children Clinic')" class="text-sm font-bold text-lupe-blue hover:text-sky-800 inline-flex items-center gap-1">
+                            Book Visit <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3: Newborn Care & NICU Phototherapy -->
+                <div class="group bg-lupe-cream hover:bg-white rounded-3xl p-7 border border-emerald-900/10 hover:border-lupe-green/40 shadow-card hover:shadow-soft transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-indigo-100 text-indigo-600 flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-baby"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-slate-900 mb-2.5">Newborn Care &amp; Phototherapy</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Specialized neonatal care unit equipped with medical <strong class="text-slate-800">A20 Phototherapy Light units</strong> and infant radiant warmers for safe neonatal jaundice treatment and monitoring.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-emerald-900/10 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-indigo-800 bg-indigo-50 px-2.5 py-1 rounded-lg">A20 Phototherapy Equipped</span>
+                        <a href="#appointment" onclick="selectDepartment('Maternity & Newborn Care')" class="text-sm font-bold text-indigo-600 hover:text-indigo-800 inline-flex items-center gap-1">
+                            Book Visit <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4: Surgical & Maternity Theatre -->
+                <div class="group bg-lupe-cream hover:bg-white rounded-3xl p-7 border border-emerald-900/10 hover:border-lupe-green/40 shadow-card hover:shadow-soft transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-teal-100 text-lupe-teal flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-slate-900 mb-2.5">Surgical &amp; Maternity Theatre</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Modern operating theatre featuring multi-bulb LED surgical lighting, adjustable surgical &amp; delivery tables, safe Caesarean sections, and minor/major surgical procedures.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-emerald-900/10 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-teal-800 bg-teal-50 px-2.5 py-1 rounded-lg">24/7 Theatre Readiness</span>
+                        <a href="#appointment" onclick="selectDepartment('Surgical Services')" class="text-sm font-bold text-lupe-teal hover:text-teal-900 inline-flex items-center gap-1">
+                            Book Consult <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 5: Ultrasound & Diagnostic Imaging -->
+                <div class="group bg-lupe-cream hover:bg-white rounded-3xl p-7 border border-emerald-900/10 hover:border-lupe-green/40 shadow-card hover:shadow-soft transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-wave-square"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-slate-900 mb-2.5">Ultrasound &amp; Diagnostics</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            High-clarity obstetric/antenatal ultrasound scans, abdominal &amp; pelvic imaging, and rapid clinical laboratory testing for accurate, timely diagnosis.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-emerald-900/10 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-amber-800 bg-amber-50 px-2.5 py-1 rounded-lg">Fast Scan Reporting</span>
+                        <a href="#appointment" onclick="selectDepartment('Ultrasound Services')" class="text-sm font-bold text-amber-700 hover:text-amber-900 inline-flex items-center gap-1">
+                            Book Scan <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 6: Dental Clinic -->
+                <div class="group bg-lupe-cream hover:bg-white rounded-3xl p-7 border border-emerald-900/10 hover:border-lupe-green/40 shadow-card hover:shadow-soft transition duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-rose-100 text-rose-600 flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-slate-900 mb-2.5">Dental Clinic</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Gentle, comprehensive oral healthcare for both adults and children including dental checkups, painless extractions, fillings, scaling, and emergency toothache relief.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-emerald-900/10 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-rose-800 bg-rose-50 px-2.5 py-1 rounded-lg">Family &amp; Pediatric Dental</span>
+                        <a href="#appointment" onclick="selectDepartment('Dental Clinic')" class="text-sm font-bold text-rose-600 hover:text-rose-800 inline-flex items-center gap-1">
+                            Book Dental <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. FACILITIES & INFRASTRUCTURE SHOWCASE -->
+    <section id="facilities" class="py-16 lg:py-24 bg-lupe-creamDark border-y border-emerald-900/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+                <div>
+                    <span class="text-lupe-green font-bold text-xs sm:text-sm uppercase tracking-widest">Our Hospital Environment</span>
+                    <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900 mt-2">
+                        Modern Facilities &amp; Serene Compound
+                    </h2>
+                </div>
+
+                <!-- Interactive Category Filter Buttons -->
+                <div class="flex flex-wrap gap-2" id="facility-filters">
+                    <button data-filter="all" class="facility-btn active bg-lupe-green text-white px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition shadow-xs">
+                        All Areas
+                    </button>
+                    <button data-filter="clinical" class="facility-btn bg-white text-slate-700 hover:bg-emerald-50 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-200 transition">
+                        Theatre &amp; NICU
+                    </button>
+                    <button data-filter="wards" class="facility-btn bg-white text-slate-700 hover:bg-emerald-50 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-200 transition">
+                        Wards &amp; Walkways
+                    </button>
+                    <button data-filter="compound" class="facility-btn bg-white text-slate-700 hover:bg-emerald-50 px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border border-slate-200 transition">
+                        Compound &amp; Parking
+                    </button>
+                </div>
+            </div>
+
+            <!-- Facility Cards Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="facility-grid">
+                
+                <!-- Card 1: Neonatal Phototherapy Unit -->
+                <div data-category="clinical" class="facility-card bg-white rounded-3xl overflow-hidden border border-emerald-900/10 shadow-card flex flex-col">
+                    <div class="h-44 bg-gradient-to-br from-blue-900 via-blue-700 to-sky-500 p-6 flex flex-col justify-between text-white relative overflow-hidden">
+                        <div class="flex justify-between items-start z-10">
+                            <span class="bg-white/20 backdrop-blur-xs text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Newborn Unit</span>
+                            <i class="fa-solid fa-lightbulb text-2xl text-sky-200"></i>
+                        </div>
+                        <div class="z-10">
+                            <p class="text-xs text-sky-200 font-semibold">Medical Equipment</p>
+                            <h3 class="font-heading font-bold text-xl">A20 Phototherapy Light Suite</h3>
+                        </div>
+                        <i class="fa-solid fa-baby-carriage text-8xl text-white/10 absolute -bottom-3 -right-3"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Dedicated tiled newborn care room outfitted with clinical A20 Phototherapy units and infant cribs for effective bilirubin management and neonatal recovery.
+                        </p>
+                        <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-lupe-teal">
+                            <i class="fa-solid fa-shield-virus"></i> Sterile &amp; Temperature Controlled
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Operating & Delivery Theatre -->
+                <div data-category="clinical" class="facility-card bg-white rounded-3xl overflow-hidden border border-emerald-900/10 shadow-card flex flex-col">
+                    <div class="h-44 bg-gradient-to-br from-teal-900 via-lupe-teal to-emerald-600 p-6 flex flex-col justify-between text-white relative overflow-hidden">
+                        <div class="flex justify-between items-start z-10">
+                            <span class="bg-white/20 backdrop-blur-xs text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Surgical Suite</span>
+                            <i class="fa-solid fa-kit-medical text-2xl text-emerald-200"></i>
+                        </div>
+                        <div class="z-10">
+                            <p class="text-xs text-emerald-200 font-semibold">Theatre Infrastructure</p>
+                            <h3 class="font-heading font-bold text-xl">Modern Operating &amp; Delivery Room</h3>
+                        </div>
+                        <i class="fa-solid fa-user-doctor text-8xl text-white/10 absolute -bottom-3 -right-3"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Outfitted with multi-lens overhead surgical theatre illumination, hydraulic operating &amp; obstetric delivery tables, and hygienic easy-to-sanitize tiled walls.
+                        </p>
+                        <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-lupe-teal">
+                            <i class="fa-solid fa-clock"></i> 24-Hour Emergency Surgical Standby
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Paved Compound & Parking -->
+                <div data-category="compound" class="facility-card bg-white rounded-3xl overflow-hidden border border-emerald-900/10 shadow-card flex flex-col">
+                    <div class="h-44 bg-gradient-to-br from-lupe-forest via-lupe-green to-emerald-500 p-6 flex flex-col justify-between text-white relative overflow-hidden">
+                        <div class="flex justify-between items-start z-10">
+                            <span class="bg-white/20 backdrop-blur-xs text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Exterior &amp; Access</span>
+                            <i class="fa-solid fa-square-parking text-2xl text-emerald-200"></i>
+                        </div>
+                        <div class="z-10">
+                            <p class="text-xs text-emerald-200 font-semibold">Cabro-Paved Grounds</p>
+                            <h3 class="font-heading font-bold text-xl">Spacious Parking &amp; Drop-Off</h3>
+                        </div>
+                        <i class="fa-solid fa-truck-medical text-8xl text-white/10 absolute -bottom-3 -right-3"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Recognizable green-roofed cream buildings fronted by an expansive cabro-paved courtyard with marked parking bays for ambulances and family vehicles.
+                        </p>
+                        <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-lupe-green">
+                            <i class="fa-solid fa-wheelchair"></i> Step-Free Patient Drop-off Access
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Covered Tiled Walkways -->
+                <div data-category="wards" class="facility-card bg-white rounded-3xl overflow-hidden border border-emerald-900/10 shadow-card flex flex-col">
+                    <div class="h-44 bg-gradient-to-br from-emerald-800 via-teal-700 to-cyan-700 p-6 flex flex-col justify-between text-white relative overflow-hidden">
+                        <div class="flex justify-between items-start z-10">
+                            <span class="bg-white/20 backdrop-blur-xs text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Hospital Wings</span>
+                            <i class="fa-solid fa-shoe-prints text-2xl text-cyan-200"></i>
+                        </div>
+                        <div class="z-10">
+                            <p class="text-xs text-cyan-200 font-semibold">All-Weather Protection</p>
+                            <h3 class="font-heading font-bold text-xl">Covered Tiled Corridors &amp; Ramps</h3>
+                        </div>
+                        <i class="fa-solid fa-hospital text-8xl text-white/10 absolute -bottom-3 -right-3"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Wide, sheltered ceramic-tiled walkways connecting outpatient consultation rooms, diagnostics, pharmacy, and inpatient wards with safety guardrails and lush courtyard gardens.
+                        </p>
+                        <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-lupe-teal">
+                            <i class="fa-solid fa-umbrella"></i> Rain-Sheltered Inter-Department Access
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5: Private & Pediatric Wards -->
+                <div data-category="wards" class="facility-card bg-white rounded-3xl overflow-hidden border border-emerald-900/10 shadow-card flex flex-col">
+                    <div class="h-44 bg-gradient-to-br from-sky-800 via-lupe-blue to-cyan-600 p-6 flex flex-col justify-between text-white relative overflow-hidden">
+                        <div class="flex justify-between items-start z-10">
+                            <span class="bg-white/20 backdrop-blur-xs text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Inpatient Care</span>
+                            <i class="fa-solid fa-bed-pulse text-2xl text-sky-200"></i>
+                        </div>
+                        <div class="z-10">
+                            <p class="text-xs text-sky-200 font-semibold">Restful Recovery</p>
+                            <h3 class="font-heading font-bold text-xl">Private Wards &amp; Pediatric Cots</h3>
+                        </div>
+                        <i class="fa-solid fa-bed text-8xl text-white/10 absolute -bottom-3 -right-3"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Well-ventilated, curtained private and semi-private inpatient rooms featuring adult beds, pediatric cots, and attentive 24-hour nursing stations nearby.
+                        </p>
+                        <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-lupe-blue">
+                            <i class="fa-solid fa-user-nurse"></i> Round-the-Clock Nursing Care
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6: Resuscitation & Examination Bays -->
+                <div data-category="clinical" class="facility-card bg-white rounded-3xl overflow-hidden border border-emerald-900/10 shadow-card flex flex-col">
+                    <div class="h-44 bg-gradient-to-br from-slate-800 via-slate-700 to-emerald-800 p-6 flex flex-col justify-between text-white relative overflow-hidden">
+                        <div class="flex justify-between items-start z-10">
+                            <span class="bg-white/20 backdrop-blur-xs text-[11px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">Emergency &amp; Triage</span>
+                            <i class="fa-solid fa-heart-circle-bolt text-2xl text-emerald-300"></i>
+                        </div>
+                        <div class="z-10">
+                            <p class="text-xs text-emerald-200 font-semibold">Rapid Stabilization</p>
+                            <h3 class="font-heading font-bold text-xl">Infant Resuscitation &amp; Exam Rooms</h3>
+                        </div>
+                        <i class="fa-solid fa-stethoscope text-8xl text-white/10 absolute -bottom-3 -right-3"></i>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Dedicated examination suites equipped with infant radiant warmers, clinical examination couches, handwashing stations, and strict infection-control protocols.
+                        </p>
+                        <div class="mt-4 flex items-center gap-2 text-xs font-semibold text-lupe-green">
+                            <i class="fa-solid fa-check-double"></i> Level 4 Clinical Standards
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. INSURANCE & ACCREDITATION BANNER -->
+    <section id="insurance" class="py-14 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-lupe-forest via-lupe-green to-lupe-teal rounded-3xl p-8 sm:p-10 lg:p-12 text-white shadow-soft relative overflow-hidden">
+                <div class="relative z-10 grid lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-8 space-y-4">
+                        <div class="inline-flex items-center gap-2 bg-white/15 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-emerald-100">
+                            <i class="fa-solid fa-shield-check"></i> Accredited Healthcare Partner
+                        </div>
+                        <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl">
+                            SHA / NHIF &amp; Major Medical Insurance Cards Accepted
+                        </h2>
+                        <p class="text-emerald-50 text-sm sm:text-base max-w-2xl leading-relaxed">
+                            We strive to make quality healthcare accessible to every family in Kakamega. Lupe Medical Centre accepts Social Health Authority (SHA / NHIF) cover, major corporate medical cards, and flexible cash/M-Pesa billing.
+                        </p>
+                        <div class="flex flex-wrap gap-2.5 pt-2">
+                            <span class="bg-white text-lupe-forest font-bold text-xs sm:text-sm px-4 py-2 rounded-xl shadow-2xs">SHA / NHIF Accredited</span>
+                            <span class="bg-white/15 border border-white/25 text-white font-semibold text-xs sm:text-sm px-4 py-2 rounded-xl">Maternity &amp; Linda Mama Support</span>
+                            <span class="bg-white/15 border border-white/25 text-white font-semibold text-xs sm:text-sm px-4 py-2 rounded-xl">Major Medical Insurance Cards</span>
+                            <span class="bg-white/15 border border-white/25 text-white font-semibold text-xs sm:text-sm px-4 py-2 rounded-xl">M-Pesa &amp; Cash</span>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3">
+                        <button onclick="openInsuranceModal()" class="w-full bg-white hover:bg-lupe-cream text-lupe-forest font-extrabold py-4 px-6 rounded-2xl shadow-lg transition flex items-center justify-center gap-2 text-sm sm:text-base">
+                            <i class="fa-solid fa-file-shield text-lupe-green"></i>
+                            <span>Verify Your Cover</span>
+                        </button>
+                        <a href="tel:+254722785487" class="w-full bg-emerald-950/40 hover:bg-emerald-950/60 border border-white/30 text-white font-bold py-3.5 px-6 rounded-2xl transition flex items-center justify-center gap-2 text-sm">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>Billing Desk: 0722 785 487</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. INTERACTIVE APPOINTMENT & TRIAGE BOOKING SYSTEM -->
+    <section id="appointment" class="py-16 lg:py-24 bg-lupe-cream border-t border-emerald-900/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-10 items-start">
+                
+                <!-- Left Info Column -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-lupe-green font-bold text-xs sm:text-sm uppercase tracking-widest">Fast-Track Registration</span>
+                    <h2 class="font-heading font-extrabold text-2xl sm:text-3xl lg:text-4xl text-slate-900">
+                        Book an Appointment or Triage Visit
+                    </h2>
+                    <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                        Schedule your outpatient consultation, pediatric checkup, ultrasound scan, or dental visit ahead of time. For medical emergencies, walk in immediately—our doors are open 24 hours a day.
+                    </p>
+
+                    <div class="bg-white rounded-2xl p-6 border border-emerald-900/10 shadow-card space-y-4">
+                        <h3 class="font-heading font-bold text-base text-slate-900 flex items-center gap-2">
+                            <i class="fa-solid fa-circle-info text-lupe-green"></i> How Online Booking Works
+                        </h3>
+                        <ol class="space-y-3 text-sm text-slate-600">
+                            <li class="flex items-start gap-3">
+                                <span class="w-6 h-6 rounded-full bg-emerald-100 text-lupe-green font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">1</span>
+                                <span>Choose your required medical department and preferred date/time.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-6 h-6 rounded-full bg-emerald-100 text-lupe-green font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">2</span>
+                                <span>Generate an instant booking slip with a reference number.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-6 h-6 rounded-full bg-emerald-100 text-lupe-green font-bold text-xs flex items-center justify-center shrink-0 mt-0.5">3</span>
+                                <span>Send directly to our <strong>24/7 Reception WhatsApp (0722 785 487)</strong> in one tap.</span>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Right Interactive Form Column -->
+                <div class="lg:col-span-7">
+                    <div class="bg-white rounded-3xl p-6 sm:p-8 lg:p-10 shadow-soft border border-emerald-900/10">
+                        <form id="booking-form" class="space-y-5">
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <!-- Patient Full Name -->
+                                <div>
+                                    <label for="patientName" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Patient Full Name *</label>
+                                    <input type="text" id="patientName" required placeholder="e.g. Mary Wanjiku" class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 focus:border-lupe-green focus:ring-2 focus:ring-emerald-500/20 outline-none text-sm font-medium transition">
+                                </div>
+
+                                <!-- Phone Number -->
+                                <div>
+                                    <label for="patientPhone" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Phone Number *</label>
+                                    <input type="tel" id="patientPhone" required placeholder="e.g. 0712 345 678" class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 focus:border-lupe-green focus:ring-2 focus:ring-emerald-500/20 outline-none text-sm font-medium transition">
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <!-- Department Select -->
+                                <div>
+                                    <label for="department" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Department / Service *</label>
+                                    <select id="department" required class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 focus:border-lupe-green focus:ring-2 focus:ring-emerald-500/20 outline-none text-sm font-medium transition">
+                                        <option value="Outpatient Consultation">Outpatient Consultation (24/7)</option>
+                                        <option value="Pediatrics / Children Clinic">Pediatrics / Children's Level 4 Clinic</option>
+                                        <option value="Maternity & Newborn Care">Maternity, Antenatal &amp; Newborn Care</option>
+                                        <option value="Ultrasound Services">Ultrasound &amp; Diagnostic Imaging</option>
+                                        <option value="Dental Clinic">Dental Clinic</option>
+                                        <option value="Surgical Services">Surgical Consultation / Theatre</option>
+                                    </select>
+                                </div>
+
+                                <!-- Payment / Insurance Method -->
+                                <div>
+                                    <label for="paymentMode" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Payment / Cover</label>
+                                    <select id="paymentMode" class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 focus:border-lupe-green focus:ring-2 focus:ring-emerald-500/20 outline-none text-sm font-medium transition">
+                                        <option value="SHA / NHIF Card">SHA / NHIF Card</option>
+                                        <option value="Other Medical Insurance Card">Other Medical Insurance Card</option>
+                                        <option value="Cash / M-Pesa">Cash / M-Pesa</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="grid sm:grid-cols-2 gap-5">
+                                <!-- Preferred Date -->
+                                <div>
+                                    <label for="visitDate" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Preferred Date *</label>
+                                    <input type="date" id="visitDate" required class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 focus:border-lupe-green focus:ring-2 focus:ring-emerald-500/20 outline-none text-sm font-medium transition">
+                                </div>
+
+                                <!-- Preferred Time Window -->
+                                <div>
+                                    <label for="visitTime" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Preferred Time</label>
+                                    <select id="visitTime" class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 focus:border-lupe-green focus:ring-2 focus:ring-emerald-500/20 outline-none text-sm font-medium transition">
+                                        <option value="Morning (8:00 AM - 12:00 PM)">Morning (8:00 AM – 12:00 PM)</option>
+                                        <option value="Afternoon (12:00 PM - 5:00 PM)">Afternoon (12:00 PM – 5:00 PM)</option>
+                                        <option value="Evening (5:00 PM - 9:00 PM)">Evening (5:00 PM – 9:00 PM)</option>
+                                        <option value="Night / Urgent 24hr Visit">Night / Urgent 24-Hour Visit</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Symptoms or Notes -->
+                            <div>
+                                <label for="notes" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Brief Reason for Visit / Symptoms (Optional)</label>
+                                <textarea id="notes" rows="3" placeholder="Describe any symptoms, child's age, or specific scan needed..." class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 focus:border-lupe-green focus:ring-2 focus:ring-emerald-500/20 outline-none text-sm font-medium transition"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full bg-lupe-green hover:bg-lupe-forest text-white font-bold py-4 px-6 rounded-2xl shadow-lg shadow-emerald-900/15 transition flex items-center justify-center gap-2.5 text-base">
+                                <i class="fa-solid fa-calendar-check"></i>
+                                <span>Confirm Appointment Request</span>
+                            </button>
+                        </form>
+
+                        <!-- Interactive Booking Confirmation Summary (Hidden until submitted) -->
+                        <div id="booking-confirmation" class="hidden mt-6 bg-emerald-50 border-2 border-lupe-green rounded-2xl p-6 space-y-4">
+                            <div class="flex items-start justify-between gap-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-10 h-10 rounded-full bg-lupe-green text-white flex items-center justify-center shrink-0">
+                                        <i class="fa-solid fa-check text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-heading font-bold text-lg text-lupe-forest">Appointment Slip Ready</h4>
+                                        <p class="text-xs text-slate-600">Ref: <span id="conf-ref" class="font-mono font-bold text-slate-900"></span></p>
+                                    </div>
+                                </div>
+                                <button onclick="resetBooking()" class="text-xs font-semibold text-slate-500 hover:text-slate-800 underline">Edit</button>
+                            </div>
+
+                            <div id="conf-details" class="bg-white rounded-xl p-4 text-sm space-y-1.5 border border-emerald-200 text-slate-700">
+                                <!-- Populated via JS -->
+                            </div>
+
+                            <div class="flex flex-col sm:flex-row gap-3 pt-1">
+                                <a id="whatsapp-send-btn" href="#" target="_blank" rel="noopener noreferrer" class="flex-1 bg-[#25D366] hover:bg-[#20bd5a] text-slate-950 font-extrabold py-3.5 px-5 rounded-xl shadow-sm transition flex items-center justify-center gap-2 text-sm">
+                                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                                    <span>Send via WhatsApp to 0722 785 487</span>
+                                </a>
+                                <a href="tel:+254722785487" class="bg-lupe-forest hover:bg-emerald-900 text-white font-bold py-3.5 px-5 rounded-xl transition flex items-center justify-center gap-2 text-sm">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>Call Desk</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. LOCATION, LANDMARKS & CONTACT FOOTER -->
+    <footer id="location" class="bg-slate-900 text-slate-300 pt-16 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Location & Directions Card -->
+            <div class="bg-slate-800/90 border border-slate-700 rounded-3xl p-6 sm:p-8 lg:p-10 mb-14 grid lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-4">
+                    <div class="inline-flex items-center gap-2 bg-emerald-500/15 border border-emerald-400/30 text-emerald-300 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                        <i class="fa-solid fa-map-location-dot"></i> Easy Access in Lurambi
+                    </div>
+                    <h2 class="font-heading font-extrabold text-2xl sm:text-3xl text-white">
+                        Find Lupe Medical Centre
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        Conveniently located in <strong class="text-white">Lurambi, Kakamega</strong>, off the Kakamega–Webuye Highway (A1) in a serene, accessible neighborhood.
+                    </p>
+
+                    <!-- Key Landmarks -->
+                    <div class="grid sm:grid-cols-2 gap-3 pt-2">
+                        <div class="bg-slate-900/70 border border-slate-700/80 rounded-2xl p-4 flex items-start gap-3">
+                            <i class="fa-solid fa-tree text-emerald-400 text-lg mt-0.5"></i>
+                            <div>
+                                <p class="text-xs font-bold text-white">Near Kakamega Forest Entrance</p>
+                                <p class="text-xs text-slate-400 mt-0.5">Located west of the Kakamega Forest boundary</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-900/70 border border-slate-700/80 rounded-2xl p-4 flex items-start gap-3">
+                            <i class="fa-solid fa-road text-sky-400 text-lg mt-0.5"></i>
+                            <div>
+                                <p class="text-xs font-bold text-white">Off A1 / C41 Junction</p>
+                                <p class="text-xs text-slate-400 mt-0.5">Accessible via Lurambi Market &amp; PEFA Church road</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Map Visual Card & Google Maps CTA -->
+                <div class="lg:col-span-5">
+                    <div class="bg-lupe-cream text-slate-900 rounded-2xl p-6 shadow-xl border-2 border-lupe-green space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <span class="text-[11px] font-extrabold uppercase tracking-wider text-lupe-green">Google Maps Pin</span>
+                                <h3 class="font-heading font-extrabold text-lg text-slate-900">Lupe Medical Centre</h3>
+                                <p class="text-xs text-slate-600">Lurambi, Kakamega County, Kenya</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-2xl bg-red-100 text-lupe-red flex items-center justify-center text-2xl shadow-2xs">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-xl p-3.5 border border-slate-200 text-xs space-y-1.5">
+                            <div class="flex justify-between">
+                                <span class="text-slate-500">Status:</span>
+                                <span class="font-bold text-lupe-green">Open 24 Hours (Mon–Sun)</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-500">Postal Address:</span>
+                                <span class="font-semibold text-slate-800">P.O. Box 1154 - 50100 Kakamega</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="text-slate-500">Emergency Line:</span>
+                                <span class="font-bold text-slate-800">0722 785 487</span>
+                            </div>
+                        </div>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Lupe+Medical+Centre+Lurambi+Kakamega" target="_blank" rel="noopener noreferrer" class="w-full bg-lupe-teal hover:bg-lupe-forest text-white font-bold py-3.5 px-5 rounded-xl shadow transition flex items-center justify-center gap-2 text-sm">
+                            <i class="fa-solid fa-diamond-turn-right"></i>
+                            <span>Get Directions on Google Maps</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Columns -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-12 border-b border-slate-800 text-sm">
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2.5">
+                        <div class="w-9 h-9 rounded-lg bg-lupe-green text-white flex items-center justify-center">
+                            <i class="fa-solid fa-hospital"></i>
+                        </div>
+                        <span class="font-heading font-extrabold text-lg text-white">LUPE MEDICAL CENTRE</span>
+                    </div>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Accredited Children's Level 4 Hospital providing 24/7 inpatient, outpatient, maternity, newborn phototherapy, surgical, ultrasound, and dental care in Lurambi, Kakamega.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white mb-3">Clinical Services</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#services" class="hover:text-emerald-400 transition">Inpatient &amp; Outpatient Care</a></li>
+                        <li><a href="#services" class="hover:text-emerald-400 transition">Children's Level 4 Hospital</a></li>
+                        <li><a href="#services" class="hover:text-emerald-400 transition">Newborn Care &amp; Phototherapy</a></li>
+                        <li><a href="#services" class="hover:text-emerald-400 transition">Surgical &amp; Maternity Theatre</a></li>
+                        <li><a href="#services" class="hover:text-emerald-400 transition">Ultrasound &amp; Dental Clinic</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white mb-3">Operating Hours</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li class="flex justify-between"><span>Monday – Friday:</span> <span class="text-emerald-400 font-semibold">Open 24 Hours</span></li>
+                        <li class="flex justify-between"><span>Saturday &amp; Sunday:</span> <span class="text-emerald-400 font-semibold">Open 24 Hours</span></li>
+                        <li class="flex justify-between"><span>Public Holidays:</span> <span class="text-emerald-400 font-semibold">Open 24 Hours</span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white mb-3">24/7 Contact Desk</h4>
+                    <ul class="space-y-2.5 text-xs text-slate-400">
+                        <li>
+                            <a href="tel:+254722785487" class="hover:text-white flex items-center gap-2 font-semibold text-slate-200">
+                                <i class="fa-solid fa-phone text-emerald-400"></i> 0722 785 487 (Primary)
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+254717334743" class="hover:text-white flex items-center gap-2">
+                                <i class="fa-solid fa-phone text-emerald-400"></i> 0717 334 743 (Secondary)
+                            </a>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-envelope text-emerald-400 mt-0.5"></i>
+                            <span>P.O. Box 1154 - 50100 Kakamega, Kenya</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+                <p>&copy; <span id="current-year"></span> Lupe Medical Centre, Lurambi – Kakamega. All Rights Reserved.</p>
+                <p class="text-emerald-400/80 font-medium">Open 24 Hours • SHA / NHIF &amp; Major Cards Accredited</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING MOBILE CALL & WHATSAPP BAR (Visible on small screens) -->
+    <div class="fixed bottom-4 inset-x-4 z-40 sm:hidden flex gap-2.5">
+        <a href="tel:+254722785487" class="flex-1 bg-lupe-forest text-white font-bold py-3.5 px-4 rounded-2xl shadow-xl border border-emerald-700 flex items-center justify-center gap-2 text-sm">
+            <i class="fa-solid fa-phone-volume text-emerald-300"></i>
+            <span>Call 24/7</span>
+        </a>
+        <a href="https://wa.me/254722785487?text=Hello%20Lupe%20Medical%20Centre,%20I%20need%20assistance." target="_blank" rel="noopener noreferrer" class="flex-1 bg-[#25D366] text-slate-950 font-extrabold py-3.5 px-4 rounded-2xl shadow-xl flex items-center justify-center gap-2 text-sm">
+            <i class="fa-brands fa-whatsapp text-lg"></i>
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- INSURANCE COVER VERIFICATION MODAL -->
+    <div id="insurance-modal" class="fixed inset-0 z-50 hidden bg-slate-950/60 backdrop-blur-xs flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl border border-emerald-900/10 space-y-5 relative">
+            <button onclick="closeInsuranceModal()" aria-label="Close modal" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 flex items-center justify-center text-slate-600">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-lupe-green">Insurance &amp; Billing Desk</span>
+                <h3 class="font-heading font-extrabold text-xl text-slate-900 mt-1">Check Medical Cover Eligibility</h3>
+                <p class="text-xs text-slate-600 mt-1">Select your insurance provider to verify outpatient, inpatient, maternity, or surgical coverage at Lupe Medical Centre.</p>
+            </div>
+
+            <div class="space-y-3">
+                <div>
+                    <label for="insurer-select" class="block text-xs font-bold text-slate-700 mb-1.5">Insurance Provider / Scheme</label>
+                    <select id="insurer-select" class="w-full px-4 py-3 rounded-xl bg-lupe-cream border border-slate-200 text-sm font-medium outline-none focus:border-lupe-green">
+                        <option value="SHA / NHIF">SHA / NHIF (Social Health Authority)</option>
+                        <option value="Jubilee Health Insurance">Jubilee Health Insurance</option>
+                        <option value="Britam Medical">Britam Medical</option>
+                        <option value="APA Insurance">APA Insurance</option>
+                        <option value="CIC Insurance">CIC Insurance</option>
+                        <option value="Minet / AON">Minet / AON</option>
+                        <option value="Other Medical Card">Other Medical Card</option>
+                    </select>
+                </div>
+
+                <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-3.5 text-xs text-lupe-forest space-y-1">
+                    <p class="font-bold"><i class="fa-solid fa-circle-check mr-1"></i> Pre-Authorization Available 24/7</p>
+                    <p class="text-slate-600">Please bring your National ID / Birth Notification and valid insurance card or SHA registration number upon arrival.</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-2.5">
+                <a id="insurer-whatsapp-link" href="https://wa.me/254722785487?text=Hello%20Lupe%20Medical%20Centre,%20I%20would%20like%20to%20confirm%20coverage%20for%20SHA%20/%20NHIF." target="_blank" rel="noopener noreferrer" class="w-full bg-lupe-green hover:bg-lupe-forest text-white font-bold py-3.5 px-5 rounded-xl text-center text-sm transition flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>Confirm Cover via WhatsApp</span>
+                </a>
+                <a href="tel:+254722785487" class="w-full bg-lupe-creamDark hover:bg-slate-200 text-slate-800 font-bold py-3 px-5 rounded-xl text-center text-xs transition">
+                    Call Reception: 0722 785 487
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- INTERACTIVE JAVASCRIPT -->
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Set default date in booking form to today
+        const visitDateInput = document.getElementById('visitDate');
+        if (visitDateInput) {
+            const today = new Date().toISOString().split('T')[0];
+            visitDateInput.value = today;
+            visitDateInput.min = today;
+        }
+
+        // Mobile Navigation Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Facility Showcase Filter Logic
+        const filterButtons = document.querySelectorAll('.facility-btn');
+        const facilityCards = document.querySelectorAll('.facility-card');
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Reset active styles
+                filterButtons.forEach(b => {
+                    b.classList.remove('bg-lupe-green', 'text-white', 'shadow-xs');
+                    b.classList.add('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+                });
+                btn.classList.add('bg-lupe-green', 'text-white', 'shadow-xs');
+                btn.classList.remove('bg-white', 'text-slate-700', 'border', 'border-slate-200');
+
+                const filter = btn.getAttribute('data-filter');
+                facilityCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Pre-select Department from Service Cards
+        function selectDepartment(deptName) {
+            const deptSelect = document.getElementById('department');
+            if (deptSelect) {
+                deptSelect.value = deptName;
+            }
+        }
+
+        // Appointment Booking Form Submission & WhatsApp Generator
+        const bookingForm = document.getElementById('booking-form');
+        const confirmationBox = document.getElementById('booking-confirmation');
+
+        bookingForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('patientName').value.trim();
+            const phone = document.getElementById('patientPhone').value.trim();
+            const department = document.getElementById('department').value;
+            const paymentMode = document.getElementById('paymentMode').value;
+            const date = document.getElementById('visitDate').value;
+            const time = document.getElementById('visitTime').value;
+            const notes = document.getElementById('notes').value.trim();
+
+            // Generate short reference ID
+            const refCode = 'LMC-' + Math.floor(1000 + Math.random() * 9000);
+            document.getElementById('conf-ref').textContent = refCode;
+
+            // Populate confirmation summary
+            const detailsHtml = `
+                <p><strong>Patient:</strong> ${escapeHtml(name)} (${escapeHtml(phone)})</p>
+                <p><strong>Department:</strong> ${escapeHtml(department)}</p>
+                <p><strong>Date &amp; Time:</strong> ${escapeHtml(date)} • ${escapeHtml(time)}</p>
+                <p><strong>Cover / Payment:</strong> ${escapeHtml(paymentMode)}</p>
+                ${notes ? `<p><strong>Notes:</strong> ${escapeHtml(notes)}</p>` : ''}
+            `;
+            document.getElementById('conf-details').innerHTML = detailsHtml;
+
+            // Construct WhatsApp pre-filled message to 0722785487
+            const waText = `Hello Lupe Medical Centre (Lurambi), I would like to book an appointment:%0A` +
+                `*Ref:* ${refCode}%0A` +
+                `*Name:* ${encodeURIComponent(name)}%0A` +
+                `*Phone:* ${encodeURIComponent(phone)}%0A` +
+                `*Department:* ${encodeURIComponent(department)}%0A` +
+                `*Date:* ${encodeURIComponent(date)} (${encodeURIComponent(time)})%0A` +
+                `*Cover:* ${encodeURIComponent(paymentMode)}` +
+                (notes ? `%0A*Notes:* ${encodeURIComponent(notes)}` : '');
+
+            document.getElementById('whatsapp-send-btn').href = `https://wa.me/254722785487?text=${waText}`;
+
+            bookingForm.classList.add('hidden');
+            confirmationBox.classList.remove('hidden');
+        });
+
+        function resetBooking() {
+            confirmationBox.classList.add('hidden');
+            bookingForm.classList.remove('hidden');
+        }
+
+        // Insurance Modal Controls
+        const insuranceModal = document.getElementById('insurance-modal');
+        const insurerSelect = document.getElementById('insurer-select');
+        const insurerWaLink = document.getElementById('insurer-whatsapp-link');
+
+        function openInsuranceModal() {
+            insuranceModal.classList.remove('hidden');
+        }
+
+        function closeInsuranceModal() {
+            insuranceModal.classList.add('hidden');
+        }
+
+        insurerSelect.addEventListener('change', () => {
+            const selected = encodeURIComponent(insurerSelect.value);
+            insurerWaLink.href = `https://wa.me/254722785487?text=Hello%20Lupe%20Medical%20Centre,%20I%20would%20like%20to%20confirm%20medical%20coverage%20for%20${selected}.`;
+        });
+
+        // Close modal on outside click
+        insuranceModal.addEventListener('click', (e) => {
+            if (e.target === insuranceModal) closeInsuranceModal();
+        });
+
+        // Helper to prevent XSS in dynamic summary
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html>
